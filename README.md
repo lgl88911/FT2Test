@@ -1,5 +1,5 @@
 # FT2Test
-FreeType2 Test Env on Msys2 or Linux
+FreeType2 Test Env on Msys2
 
 1. Install Msys2 and Startup MSYS2 MinGW 32-bit
 Please confirm your MSYS2 install path, Eg:
