@@ -42,6 +42,8 @@ ninja
 
 5. Test
 The executable file main.exe will be generated under build, you can execute ./main.exe
+
 ![](https://github.com/lgl88911/FT2Test/blob/master/main.png)
+
 
 Add the code to test Freetype in main.c according to your needs and test it.
