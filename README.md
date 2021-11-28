@@ -2,7 +2,10 @@
 FreeType2 Test Env on Msys2
 
 1. Install Msys2 and Startup MSYS2 MinGW 32-bit
-Please confirm your MSYS2 install path, Eg:
+Please confirm your MSYS2 install path, Eg: Install to D:/program/msys64，the path of Msys2 is:
+```
+/d/program/msys64
+```
 2. Install dependencies
 ```
 pacman -Syu
