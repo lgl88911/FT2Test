@@ -21,7 +21,13 @@ include_directories(./INSTALL/include/freetype2/)
 include_directories(/d/program/msys64/mingw32/include/)
 link_directories(/d/program/msys64/mingw32/bin)
 link_directories(./INSTALL/lib)
-add_executable(main main.c ${SOURCES} ${INCLUDES})
+add_executable(main main.c
+                    my_example.c
+                    example1.c
+                    example2.cpp
+                    example5.cpp
+                    ${SOURCES} ${INCLUDES})
 target_link_libraries(main PRIVATE SDL2 )
 target_link_libraries(main PRIVATE libfreetype.a )
+target_link_libraries(main PRIVATE -lstdc++ )
 
