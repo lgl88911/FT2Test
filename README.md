@@ -34,5 +34,5 @@ make
 ./xtest
 ```
 效果如下
-![](./doc/wsl.png)
-![](./doc/x11.png)
+![](https://raw.githubusercontent.com/lgl88911/FT2Test/WSL/doc/wsl.png)
+![](https://raw.githubusercontent.com/lgl88911/FT2Test/WSL/doc/x11.png)
